@@ -106,3 +106,9 @@ body {
 .submit-score:hover {
   background-color: #3e8e41;
 }
+
+.scores-list {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
