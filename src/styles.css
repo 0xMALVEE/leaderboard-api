@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.leaderboard-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.maincontainer {
+  background-color: rgb(129 229 199);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.scoreboard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.recent-scores-panel {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.recent-scores-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recent-scores-title {
+  margin: 0;
+}
+
+.scores-refresh {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scores-refresh:hover {
+  background-color: #3e8e41;
+}
+
+.all-scores-panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.score-list-item {
+  margin: 5px 0;
+  list-style: none;
+}
+
+.add-scores-panel {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.add-score-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.scores-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-score {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-score:hover {
+  background-color: #3e8e41;
+}
